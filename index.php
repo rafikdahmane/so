@@ -18,7 +18,7 @@ mysql_select_db("biblio");
         if ($_SESSION['lecteur_is_logged_in'] === true) {
           echo "Vous êtes authentifié en tant que : <b>".$_SESSION['lecteur_logged_in']."</b>".
               " <a href='index.php?option=logout'>Déconnexion</a>"; 
-        }
+        } 
       ?>
       </div>    
       <a href="index.php"><img alt="BIBLIO" border="0" src="public/images/biblio.png" /></a>
