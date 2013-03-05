@@ -1,0 +1,99 @@
+body {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-size:16px;
+	margin: 0px;
+	padding: 0px;
+	background: #CCCCCC;
+}
+hr {
+	border:none;
+	border-top:1px solid gray;
+	height:1px;
+	margin-bottom:25px;
+	}
+h1 h2 h3 h4 h5 h6 {
+	font-family:Verdana, Arial, Helvetica, sans-serif;
+	font-weight:bold;
+	margin:10px 10px;
+	padding:10px 10px;
+}	
+h1 {font-size:18px;}
+h2 {font-size:16px;}
+h3 {font-size:14px;}
+h4 {font-size:12px;}
+h5 {font-size:10px;}
+h6 {font-size:9px;}
+/* table */
+table, td, th{ border: 1px solid white; border-collapse: collapse; padding: 5px 5px; }
+tr{ padding: 5px 5px; background: #CCCCCC; }
+tr.even{ background: #d7f0f6; }
+tr.odd{ background: #eff0f6; }
+th, td{ vertical-align: top; }
+th{ background: gray; color: white; }
+
+
+#header_navigation{ margin: 0px 0px; text-align: right; }
+#content {
+
+  border-top: 2px solid gray;
+  padding: 20px 20px;
+
+}
+
+#footer {
+  text-align: center;
+  background-color: gray;
+}
+
+
+#tabs {
+	float:left;
+	width:100%;
+	font-size:93%;
+  border-bottom: 2px solid gray;
+	
+	}
+
+#tabs ul {
+	margin:0;
+	padding:10px 10px 0 50px;
+	list-style:none;
+	}
+
+#tabs li {
+	display:inline;
+	margin:0;
+	padding:0;
+	}
+
+#tabs a {
+	float:left;
+	background:url("../images/tableft.gif") no-repeat left top;
+	margin:0;
+	padding:0 0 0 4px;
+	text-decoration:none;
+	}
+
+#tabs a span {
+	float:left;
+	display:block;
+	background:url("../images/tabright.gif") no-repeat right top;
+	padding:5px 15px 4px 6px;
+	color:#666;
+	}
+
+/* Commented Backslash Hack hides rule from IE5-Mac \*/
+#tabs a span {float:none;}
+
+/* End IE5-Mac hack */
+#tabs a:hover span {
+	color:#000;
+	}
+
+#tabs a:hover {
+	background-position:0% -42px;
+	}
+
+#tabs a:hover span {
+	background-position:100% -42px;
+	}

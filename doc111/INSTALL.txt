@@ -1,0 +1,2 @@
+1- Créer la base de donnés MySQL : biblio.sql
+2- Configuer la connexion : index.php ligne 4
