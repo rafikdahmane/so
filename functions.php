@@ -12,6 +12,19 @@ function redirect($url){
     }
 }
 
+function redirect($url){
+    if (!headers_sent()){    
+        header('Location: '.$url); exit;
+    }else{
+        echo '<script type="text/javascript">';
+        echo 'window.location.href="'.$url.'";';
+        echo '</script>';
+        echo '<noscript>';
+        echo '<meta http-equiv="refresh" content="0;url='.$url.'" />';
+        echo '</noscript>'; exit;
+    }
+}
+
 
 function drop_down_from_table($select_name, $int_id, $str_name, $table_name, $selected_id=null) {
   $output = "<select name=$select_name>\n";
