@@ -28,7 +28,7 @@ mysql_select_db("biblio");
       ?>      
       <div id="tabs">
         <ul>
-          <li><a href="index.php"><span>Accueil</span></a></li>
+          <li><a href="index.php"><span>Accueil</span></a></li>    
           <li><a href="index.php?option=livres"><span>Livres</span></a></li>
           <li><a href="index.php?option=lecteurs"><span>Lecteurs</span></a></li>
           <li><a href="index.php?option=emprunts"><span>Emprunts</span></a></li>                              
