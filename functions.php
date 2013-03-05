@@ -10,7 +10,7 @@ function redirect($url){
         echo '<meta http-equiv="refresh" content="0;url='.$url.'" />';
         echo '</noscript>'; exit;
     }
-}
+} 
 
 function redirect($url){
     if (!headers_sent()){    
