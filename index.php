@@ -19,7 +19,7 @@ mysql_select_db("biblio");
           echo "Vous êtes authentifié en tant que : <b>".$_SESSION['lecteur_logged_in']."</b>".
               " <a href='index.php?option=logout'>Déconnexion</a>"; 
         } 
-      ?>
+      ?>    
       </div>    
       <a href="index.php"><img alt="BIBLIO" border="0" src="public/images/biblio.png" /></a>
       <h1>Gestion des emprunts de livres d'une bibliothèque</h1>
@@ -37,7 +37,7 @@ mysql_select_db("biblio");
       <?php } ?>
     </div>
     <div id="content">
-      <?php
+      <?php  
       $menu_option = (isset($_GET["option"])) ? $_GET["option"] : "home";
       $menu_option_action = (isset($_GET["action"])) ? $_GET["action"] : "index" ;
       $menu_option_action_id = (isset($_GET["id"])) ? $_GET["id"] : 0 ;    
