@@ -35,3 +35,17 @@ if (isset($_POST["commit"])) {
   </p>  
   <input name="commit" type="submit" value="Connexion" />   
 </form>
+
+<h2>Authentification</h2>
+<p>Veuillez entrer votre nom d'utilisateur et votre et mot de passe pour accéder au au système</p>
+<form action="index.php?option=login" method="post">
+  <p>
+    <label>Nom d'utilisateur : </label><br />
+    <input name="nom_lecteur" type="text" size="25" />
+  </p>
+  <p>
+    <label>Mot de passe : </label><br />
+    <input name="mot_de_passe_lecteur" type="password" size="25" />
+  </p>  
+  <input name="commit" type="submit" value="Connexion" />   
+</form>
